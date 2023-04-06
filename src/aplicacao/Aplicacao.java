@@ -1,9 +1,12 @@
-package models;
+package aplicacao;
 
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
+
+import models.Gestor;
+import models.Operador;
 
 public class Aplicacao {
 
