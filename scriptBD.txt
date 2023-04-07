@@ -1,0 +1,30 @@
+CREATE DATABASE mineradora;
+use mineradora;
+CREATE DATABASE mineradora;
+
+USE mineradora;
+
+
+
+create table operacao(
+	id SERIAL PRIMARY KEY NOT NULL,
+	tipoCarga VARCHAR(100),
+	quantidade real,
+	destinatario VARCHAR(100),
+	tipoOpercao boolean,
+	dataOperacao date,
+	motorista VARCHAR(100)
+);
+
+CREATE TABLE nota(
+id SERIAL NOT NULL PRIMARY KEY,
+valor float,
+dataEmissao Date,
+produto VARCHAR(100),
+codBarras VARCHAR(15)
+);
+
+
+
+
+
