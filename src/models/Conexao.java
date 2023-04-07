@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-    static final String url = "jdbc:postgresql://localhost:5432/mineradora"; //incica o caminho do banco de dados
-	static final String user = "postgres"; // aqui vai o nome usuario que vc quer acessar
-	static final String pass = "@JoaoVictor10"; // aqui a senha do seu banco	
+    static final String url = "jdbc:postgresql://localhost:5432/mineradora"; 
+	static final String user = ""; // aqui vai o nome usuario que vc quer acessar
+	static final String pass = ""; // aqui a senha do seu banco	
 
 	public static Connection criarConexao() throws ClassNotFoundException, SQLException{
 		//Class.forName("org.postgresql.Driver");
